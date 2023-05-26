@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.SBtn {
+  @apply py-2 px-5 rounded-full border-2 border-white bg-secondary hover:bg-primary font-semibold text-white;
+}
+.MBtn {
+  @apply px-4 py-2 bg-primary hover:bg-[#ed136f] rounded text-white;
+}
